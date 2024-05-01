@@ -2,6 +2,8 @@ void main() {
   print("Hello World 42");
   doSomething();
   print(getMyName());
+  print(getName());
+  print(showAge());
 }
 
 void doSomething() {
@@ -16,3 +18,7 @@ void sayMyName() {
 String getMyName() {
   return "Erick Mutwiri";
 }
+
+String getName() => "James Bond";
+
+int showAge() => 32;
